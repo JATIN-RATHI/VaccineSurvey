@@ -1,0 +1,22 @@
+﻿body {
+    background: url("https://cdn.pixabay.com/photo/2015/05/24/06/13/medical-781422_960_720.jpg");
+    background-size:cover;
+}
+.userform {
+    background-color: rgba(255, 253, 253, 0.5);
+    position: absolute;
+    color: #3c3c3c;
+    padding: 3%;
+    border-radius: 16%;
+    font-size: 130%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+label, #TextBox1, #TextBox2, #TextBox3, input {
+    font-size: 100% ;
+    
+}
+input:hover{
+    cursor:pointer;
+}
