@@ -43,7 +43,7 @@
             <asp:Button ID="searchButton" runat="server" OnClick="searchButton_Click1" Text="Search" />
             <br />
             <br />
-            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" Width="581px">
+            <asp:GridView ID="GridView1" runat="server" OnRowEditing="GridView1_RowEditing" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" Width="581px">
                 <AlternatingRowStyle BackColor="White" />
                 <Columns>
                     <asp:BoundField DataField="Name" HeaderText="Name" />
